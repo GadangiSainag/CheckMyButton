@@ -25,6 +25,17 @@
 
 
 	<script>
+		var i=0;
+	function myLoop() {         
+document.getElementById("h1").innerHTML = "BISCUIT, C YA";
+	setTimeout(function() {  
+    window.open('https://www.amazon.in/');  
+    i++;                   
+    if (i < 169) {           
+      myLoop();             
+    }                       
+  },575)
+}
 
 	function shit(evt){
 				document.getElementById("h1").innerHTML = "SAVED";
