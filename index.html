@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DARE ME</title>
+	<style>
+
+
+	body {
+		  background-color: #E5E3C9;
+		  text-align: center;
+		  font-family: monospace;
+		  font-size: 20px;
+
+		}
+
+	</style>
+</head>
+<body>
+	<h1  id="h1">hi</h1>
+	<button onclick="openTab(event,'uGotThisF')">CLICK ME FIRST</button>
+	<button onclick="shit(event)">No Click ME first</button>
+
+
+
+
+
+	<script>
+
+	function shit(evt){
+				document.getElementById("h1").innerHTML = "SAVED";
+	}
+		function openTab(evt,makeFun) {
+			document.getElementById("h1").innerHTML = "BISCUIT, C YA";
+		    var i=2, iGotBored=makeFun;
+        for(let v=0; v<i;v++){
+
+				setTimeout(function(){window.open('https://www.youtube.com');},2000);
+      }
+		}
+	</script>
+</body>
+</html>
